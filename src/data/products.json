@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": "premium-almonds",
+    "name": "Premium Almonds",
+    "type": "product",
+    "category": "nuts",
+    "description": "Carefully selected almonds with a crisp, naturally rich bite.",
+    "image": "/images/product-almonds.png",
+    "imageAlt": "Premium almonds",
+    "featured": true,
+    "inStock": true,
+    "variants": [
+      { "id": "250g", "label": "250 g", "price": 220, "mrp": 260, "salePrice": 220 },
+      { "id": "500g", "label": "500 g", "price": 420, "mrp": 500, "salePrice": 420 },
+      { "id": "1kg", "label": "1 kg", "price": 780, "mrp": 920, "salePrice": 780 }
+    ]
+  },
+  {
+    "id": "premium-cashews",
+    "name": "Premium Cashews",
+    "type": "product",
+    "category": "nuts",
+    "description": "Buttery, crunchy cashews selected for everyday snacking and gifting.",
+    "image": "/images/product-cashews.png",
+    "imageAlt": "Premium cashews",
+    "featured": true,
+    "inStock": true,
+    "variants": [
+      { "id": "250g", "label": "250 g", "price": 260, "mrp": 300, "salePrice": 260 },
+      { "id": "500g", "label": "500 g", "price": 500, "mrp": 580, "salePrice": 500 },
+      { "id": "1kg", "label": "1 kg", "price": 950, "mrp": 1100, "salePrice": 950 }
+    ]
+  },
+  {
+    "id": "roasted-pistachios",
+    "name": "Roasted Pistachios",
+    "type": "product",
+    "category": "nuts",
+    "description": "Roasted pistachios with a satisfying crunch and delicate savoury finish.",
+    "image": "/images/product-pistachios.png",
+    "imageAlt": "Roasted pistachios",
+    "featured": true,
+    "inStock": true,
+    "variants": [
+      { "id": "250g", "label": "250 g", "price": 320, "mrp": 370, "salePrice": 320 },
+      { "id": "500g", "label": "500 g", "price": 620, "mrp": 720, "salePrice": 620 }
+    ]
+  },
+  {
+    "id": "premium-dates",
+    "name": "Premium Dates",
+    "type": "product",
+    "category": "dry-fruits",
+    "description": "Naturally sweet, soft dates for a wholesome pantry favourite.",
+    "image": "/images/product-dates.png",
+    "imageAlt": "Premium dates",
+    "featured": true,
+    "inStock": true,
+    "variants": [
+      { "id": "250g", "label": "250 g", "price": 180, "mrp": 220, "salePrice": 180 },
+      { "id": "500g", "label": "500 g", "price": 340, "mrp": 400, "salePrice": 340 },
+      { "id": "1kg", "label": "1 kg", "price": 640, "mrp": 760, "salePrice": 640 }
+    ]
+  },
+  {
+    "id": "dry-fruit-laddus",
+    "name": "Dry Fruit Laddus",
+    "type": "product",
+    "category": "laddus-snacks",
+    "description": "Festive dry fruit laddus made for sharing and gifting.",
+    "image": "/images/product-laddus.png",
+    "imageAlt": "Dry fruit laddus",
+    "featured": true,
+    "inStock": true,
+    "variants": [
+      { "id": "250g", "label": "250 g", "price": 240, "mrp": 280, "salePrice": 240 },
+      { "id": "500g", "label": "500 g", "price": 450, "mrp": 520, "salePrice": 450 }
+    ]
+  },
+  {
+    "id": "classic-dry-fruit-combo",
+    "name": "Classic Dry Fruit Combo",
+    "type": "combo",
+    "category": "combos",
+    "description": "A sharing selection of almonds, cashews, pistachios and dates.",
+    "image": "/images/combos-banner.png",
+    "imageAlt": "Classic dry fruit combo",
+    "variantLabel": "A balanced mix for sharing",
+    "salePrice": 699,
+    "mrp": 820,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "family-snack-combo",
+    "name": "Family Snack Combo",
+    "type": "combo",
+    "category": "combos",
+    "description": "A generous assortment for family snacking, gifting and celebrations.",
+    "image": "/images/combos-banner.png",
+    "imageAlt": "Family snack combo",
+    "variantLabel": "Made for family moments",
+    "salePrice": 899,
+    "mrp": 1050,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "festive-gifting-combo",
+    "name": "Festive Gifting Combo",
+    "type": "combo",
+    "category": "combos",
+    "description": "A gift-ready combination of premium pantry favourites for special occasions.",
+    "image": "/images/combos-banner.png",
+    "imageAlt": "Festive gifting combo",
+    "variantLabel": "Ready to share or gift",
+    "salePrice": 1199,
+    "mrp": 1400,
+    "featured": true,
+    "inStock": true
+  }
+]

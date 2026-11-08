@@ -486,7 +486,7 @@ img {
 
   .hero-slide__veil,
   .hero-slide--soft .hero-slide__veil {
-    background: linear-gradient(180deg, rgba(12, 32, 27, 0.12) 0%, rgba(12, 32, 27, 0.42) 42%, rgba(12, 32, 27, 0.84) 72%, rgba(12, 32, 27, 0.98) 100%) !important;
+    background: linear-gradient(180deg, rgba(12, 32, 27, 0.05) 0%, rgba(12, 32, 27, 0.24) 42%, rgba(12, 32, 27, 0.66) 72%, rgba(12, 32, 27, 0.9) 100%) !important;
   }
 
   .hero-kicker {
@@ -1563,11 +1563,11 @@ img {
 }
 
 .page-hero--products {
-  background-image: url('/images/products-page-banner.png');
+  background-image: url('https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436974/sri-harsha-agencies/storefront/products-page-banner.png');
 }
 
 .page-hero--combos {
-  background-image: url('/images/combos-page-banner.png');
+  background-image: url('https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436924/sri-harsha-agencies/storefront/combos-page-banner.png');
 }
 
 .page-hero__content {
@@ -2209,6 +2209,8 @@ img {
   position: relative;
   display: grid;
   min-height: 480px;
+  width: min(100%, 1180px);
+  margin-inline: auto;
   grid-template-columns: .95fr 1.05fr;
   gap: 54px;
   align-items: center;
@@ -2235,13 +2237,19 @@ img {
 
 .about-hero__image {
   position: relative;
-  min-height: 430px;
+  aspect-ratio: 528 / 615;
+  width: auto;
+  height: clamp(430px, 62vh, 615px);
+  max-width: 100%;
+  justify-self: end;
+  min-height: 0;
   overflow: hidden;
   background: #e0d6c8;
 }
 
 .about-hero__image img {
-  object-fit: cover;
+  object-fit: contain;
+  background: #e0d6c8;
 }
 
 .about-hero__caption {
@@ -2271,9 +2279,11 @@ img {
 
 .about-statement {
   display: grid;
+  width: min(100%, 1180px);
+  margin-inline: auto;
   grid-template-columns: .45fr 1.55fr;
   gap: 50px;
-  align-items: start;
+  align-items: center;
 }
 
 .about-statement__mark {
@@ -2309,10 +2319,13 @@ img {
 }
 
 .about-range-heading {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 35px;
+  display: grid;
+  width: min(100%, 1180px);
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+  align-items: center;
+  gap: 80px;
   margin-bottom: 38px;
 }
 
@@ -2330,7 +2343,7 @@ img {
 
 .about-range-heading>p {
   max-width: 405px;
-  margin: 0 0 5px;
+  margin: 0;
   color: var(--muted);
   font-size: 12px;
   line-height: 1.8;
@@ -2338,22 +2351,29 @@ img {
 
 .about-range-grid {
   display: grid;
+  width: min(100%, 1180px);
+  margin-inline: auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 
 .about-range-grid article {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   min-height: 213px;
-  padding: 24px;
+  padding: 28px 24px 24px;
   border: 1px solid #e5dccf;
   background: rgba(255, 255, 255, .7);
 }
 
 .about-range-grid article>span {
   display: grid;
-  width: 39px;
-  height: 39px;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 14px;
   place-items: center;
   border-radius: 50%;
   color: var(--orange-deep);
@@ -2366,20 +2386,23 @@ img {
   right: 24px;
   color: #938878;
   font-size: 12px;
+  font-weight: 500;
 }
 
 .about-range-grid h3 {
-  margin: 20px 0 5px;
+  margin: 0 0 8px;
   color: var(--navy);
   font: 600 21px var(--serif);
+  text-align: center;
 }
 
 .about-range-grid p {
-  max-width: 300px;
-  margin: 0;
+  max-width: 320px;
+  margin: 0 auto;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 12.5px;
   line-height: 1.75;
+  text-align: center;
 }
 
 .about-cta {
@@ -3908,7 +3931,12 @@ img {
   }
 
   .about-hero__image {
-    min-height: 300px;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    justify-self: stretch;
+    aspect-ratio: 528 / 615;
+    min-height: 0;
   }
 
   .about-hero__index {
@@ -3938,6 +3966,7 @@ img {
   }
 
   .about-range-heading {
+    display: flex;
     flex-direction: column;
     gap: 13px;
     margin-bottom: 25px;
@@ -3958,7 +3987,7 @@ img {
 
   .about-range-grid article {
     min-height: initial;
-    padding: 20px;
+    padding: 26px 20px 22px;
   }
 
   .about-range-grid h3 {
@@ -5399,7 +5428,7 @@ img {
   place-items: center;
   overflow: hidden;
   color: #fffdfa;
-  background: #14213d url('/images/bulk-orders-banner.webp') center 47% / cover no-repeat;
+  background: #14213d url('https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436888/sri-harsha-agencies/storefront/bulk-orders-banner.webp') center 47% / cover no-repeat;
 }
 
 .bulk-orders-hero__shade {
@@ -6362,6 +6391,7 @@ body:has(.admin-login-page) .announcement {
   display: flex;
   align-items: center;
   gap: 16px;
+  min-width: 0;
 }
 
 .admin-back-btn {
@@ -6384,6 +6414,9 @@ body:has(.admin-login-page) .announcement {
   display: flex;
   align-items: center;
   gap: 12px;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
 }
 
 .admin-logo-circle {
@@ -6414,6 +6447,8 @@ body:has(.admin-login-page) .announcement {
   flex-direction: column;
   justify-content: center;
   gap: 2px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .admin-brand-title {
@@ -6424,6 +6459,9 @@ body:has(.admin-login-page) .announcement {
   color: #0f172a;
   letter-spacing: -0.015em;
   line-height: 1.15;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .admin-brand-subtitle {
@@ -6524,6 +6562,105 @@ body:has(.admin-login-page) .announcement {
   font-size: 13.5px;
   font-weight: 600;
   animation: slideDown 0.3s ease;
+}
+
+.admin-delete-modal-backdrop {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(15, 23, 42, .42);
+  backdrop-filter: blur(6px);
+}
+
+.admin-delete-modal {
+  width: min(100%, 510px);
+  padding: 34px 32px 28px;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 24px 70px rgba(15, 23, 42, .24);
+  text-align: center;
+  animation: admin-delete-modal-in .18s ease-out;
+}
+
+.admin-delete-modal-icon {
+  display: grid;
+  place-items: center;
+  width: 66px;
+  height: 66px;
+  margin: 0 auto 18px;
+  border: 1px solid #fecaca;
+  border-radius: 50%;
+  background: #fff1f2;
+  color: #dc2626;
+}
+
+.admin-delete-modal h2 {
+  margin: 0;
+  color: #111827;
+  font: 700 32px/1.15 var(--serif);
+  letter-spacing: -.03em;
+}
+
+.admin-delete-modal p {
+  max-width: 430px;
+  margin: 12px auto 24px;
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.admin-delete-modal p strong {
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.admin-delete-modal-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.admin-delete-modal-actions button {
+  min-height: 54px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+
+.admin-delete-modal-actions button:hover {
+  transform: translateY(-1px);
+}
+
+.admin-delete-cancel {
+  border: 1px solid #e5e7eb;
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.admin-delete-cancel:hover {
+  background: #e5e7eb;
+}
+
+.admin-delete-confirm {
+  border: 1px solid #dc2626;
+  background: #ef1f25;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(239, 31, 37, .2);
+}
+
+.admin-delete-confirm:hover {
+  background: #dc2626;
+  box-shadow: 0 10px 24px rgba(239, 31, 37, .28);
+}
+
+@keyframes admin-delete-modal-in {
+  from { opacity: 0; transform: translateY(8px) scale(.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 /* Stats Cards Grid (Image 2 Reference) */
@@ -7731,7 +7868,7 @@ body:has(.admin-login-page) .announcement {
   }
 
   .admin-stats-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
     margin-bottom: 16px;
   }
@@ -7758,26 +7895,124 @@ body:has(.admin-login-page) .announcement {
 }
 
 @media (max-width: 480px) {
-  .admin-nav-bar {
-    height: auto;
-    min-height: 68px;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px 16px;
+  .admin-delete-modal {
+    padding: 34px 20px 24px;
+    border-radius: 20px;
   }
 
-  .admin-nav-left,
-  .admin-nav-right {
-    width: 100%;
+  .admin-delete-modal-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 18px;
+  }
+
+  .admin-delete-modal h2 {
+    font-size: 30px;
+  }
+
+  .admin-delete-modal p {
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .admin-delete-modal-actions {
+    gap: 10px;
+  }
+
+  .admin-delete-modal-actions button {
+    min-height: 52px;
+    font-size: 15px;
+  }
+
+  .admin-nav-bar {
+    height: 78px;
+    min-height: 0;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 8px 15px;
   }
 
   .admin-nav-left {
+    width: auto;
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+
+  .admin-nav-right {
+    width: auto;
+    flex: 0 0 auto;
+    justify-content: flex-end;
     gap: 8px;
   }
 
   .admin-brand {
     min-width: 0;
     gap: 8px;
+  }
+
+  .admin-logo-circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .admin-brand-title {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .admin-brand-subtitle {
+    font-size: 9px;
+  }
+
+  .admin-primary-btn {
+    width: 143px;
+    flex: 0 0 143px;
+    min-height: 48px;
+    padding: 9px 13px;
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .admin-logout-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .admin-main-content {
+    padding: 22px 15px;
+  }
+
+  .admin-stats-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .admin-stat-card {
+    min-height: 132px;
+    padding: 14px 12px;
+    border-radius: 14px;
+  }
+
+  .admin-stat-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .admin-stat-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .admin-stat-label {
+    font-size: 13px;
+  }
+
+  .admin-stat-value {
+    margin-top: auto;
+    font-size: 30px;
   }
 
   .admin-header-title {
@@ -7996,14 +8231,20 @@ body:has(.admin-login-page) .announcement {
 
   html {
     scrollbar-width: thin;
+    scrollbar-color: rgba(26, 60, 52, .68) transparent;
   }
 
   html::-webkit-scrollbar {
-    width: 5px;
+    width: 3px;
   }
 
   html::-webkit-scrollbar-thumb {
     border-radius: 999px;
+    background: rgba(26, 60, 52, .68);
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background: rgba(54, 122, 58, .78);
   }
 
   .footer-main {
@@ -8030,6 +8271,100 @@ body:has(.admin-login-page) .announcement {
   .footer-column,
   .footer-contact-details {
     align-items: flex-start;
+  }
+
+  .footer-bottom,
+  .footer-bottom__credits {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+/* Keep the public mobile layout visually centered. */
+@media (max-width: 600px) {
+  .about-hero__copy {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-hero__copy h1,
+  .about-hero__copy > p:not(.eyebrow) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-hero__copy > p:not(.eyebrow) {
+    max-width: 390px;
+  }
+
+  .about-hero__image {
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .about-hero__index {
+    right: 0;
+    left: auto;
+    text-align: center;
+  }
+
+  .about-statement {
+    text-align: center;
+  }
+
+  .about-statement__mark {
+    margin-inline: auto;
+  }
+
+  .about-statement > div > p:last-child {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-range-heading {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-range-heading > div,
+  .about-range-heading > p {
+    width: 100%;
+  }
+
+  .about-range-heading > p {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .site-footer .footer-main {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .footer-brand,
+  .footer-quick-contact {
+    grid-column: auto;
+  }
+
+  .footer-brand__lockup,
+  .footer-socials {
+    justify-content: flex-start;
+  }
+
+  .footer-brand > p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .footer-column,
+  .footer-contact-details {
+    align-items: flex-start;
+  }
+
+  .footer-contact-details > a,
+  .footer-contact-details > span {
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .footer-bottom,

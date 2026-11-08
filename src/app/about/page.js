@@ -1,10 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Boxes, Leaf, PackageCheck } from 'lucide-react';
-import { heroImages } from '@/data/images';
 import { siteConfig } from '@/config/site';
 
-export const metadata = { title: 'Our story' };
+export const metadata = { title: 'About us' };
 
 export default function AboutPage() {
   return (
@@ -12,7 +11,7 @@ export default function AboutPage() {
       <section className="about-hero">
         <div className="container about-hero__grid">
           <div className="about-hero__copy"><p className="eyebrow">Our Heritage &amp; Quality</p><h1>Pure goodness, curated for life’s finest moments.</h1><p>{siteConfig.name} delivers an exceptional collection of premium dry fruits, wholesome nuts, nutrient-dense seeds, and festive gift boxes for healthy households and esteemed corporate partners.</p><Link className="button button--navy" href="/products">Browse the collection <ArrowRight size={17} /></Link></div>
-          <div className="about-hero__image"><Image src={heroImages[0]} alt="A collection of pantry favourites arranged on a dark tabletop" fill priority sizes="(max-width: 800px) 100vw, 50vw" /><span className="about-hero__caption">A curated collection of nature’s finest</span></div>
+          <div className="about-hero__image"><Image src="/images/sri-harsha-shop.png" alt="Sri Harsha Agencies wholesale dry fruits shop" fill priority sizes="(max-width: 800px) 100vw, 50vw" /><span className="about-hero__caption">Sri Harsha Agencies wholesale store</span></div>
           <span className="about-hero__index">01 / OUR APPROACH</span>
         </div>
       </section>

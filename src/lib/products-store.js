@@ -1,5 +1,6 @@
 import { randomUUID } from 'node:crypto';
 import { clientDb } from './firebase-client';
+import { products as localProducts } from '@/data/products';
 import {
   collection,
   doc,
@@ -10,6 +11,16 @@ import {
 } from 'firebase/firestore';
 
 const COLLECTION = 'products';
+const FIRESTORE_TIMEOUT_MS = 2500;
+
+function withFirestoreTimeout(request) {
+  return Promise.race([
+    request,
+    new Promise((_, reject) => {
+      setTimeout(() => reject(new Error('Firestore request timed out.')), FIRESTORE_TIMEOUT_MS);
+    }),
+  ]);
+}
 
 function timestampValue(value) {
   if (typeof value === 'number') return value;
@@ -24,29 +35,29 @@ function sortProducts(products) {
 
 export async function getAllProducts() {
   try {
-    const snapshot = await getDocs(collection(clientDb, COLLECTION));
+    const snapshot = await withFirestoreTimeout(getDocs(collection(clientDb, COLLECTION)));
     const products = snapshot.docs.map((docSnap) => ({
       ...docSnap.data(),
       id: docSnap.id,
     }));
-    return sortProducts(products);
+    return sortProducts(products.length ? products : localProducts.map((product) => ({ ...product })));
   } catch (err) {
-    console.error('Firestore getDocs error:', err?.message);
-    return [];
+    console.warn('Firestore unavailable; using local product data:', err?.message);
+    return sortProducts(localProducts.map((product) => ({ ...product })));
   }
 }
 
 export async function getProductById(id) {
   try {
     const docRef = doc(clientDb, COLLECTION, id);
-    const snap = await getDoc(docRef);
+    const snap = await withFirestoreTimeout(getDoc(docRef));
     if (snap.exists()) {
       return { ...snap.data(), id: snap.id };
     }
   } catch (err) {
-    console.error('Firestore getDoc error:', err?.message);
+    console.warn('Firestore unavailable; using local product data:', err?.message);
   }
-  return null;
+  return localProducts.find((product) => product.id === id) || null;
 }
 
 export async function addProduct(productData) {

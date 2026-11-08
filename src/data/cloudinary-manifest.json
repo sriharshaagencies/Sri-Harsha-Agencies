@@ -1,0 +1,335 @@
+{
+  "/images/bulk-orders-banner.webp": {
+    "originalFile": "bulk-orders-banner.webp",
+    "originalSizeKb": 258,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436888/sri-harsha-agencies/storefront/bulk-orders-banner.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436888/sri-harsha-agencies/storefront/bulk-orders-banner.webp",
+    "publicId": "sri-harsha-agencies/storefront/bulk-orders-banner",
+    "version": 1793436888,
+    "format": "webp"
+  },
+  "/images/category-berries.webp": {
+    "originalFile": "category-berries.webp",
+    "originalSizeKb": 279,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436889/sri-harsha-agencies/storefront/category-berries.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436889/sri-harsha-agencies/storefront/category-berries.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-berries",
+    "version": 1793436889,
+    "format": "webp"
+  },
+  "/images/category-combos.webp": {
+    "originalFile": "category-combos.webp",
+    "originalSizeKb": 280,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436890/sri-harsha-agencies/storefront/category-combos.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436890/sri-harsha-agencies/storefront/category-combos.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-combos",
+    "version": 1793436890,
+    "format": "webp"
+  },
+  "/images/category-dehydrated-produce.webp": {
+    "originalFile": "category-dehydrated-produce.webp",
+    "originalSizeKb": 267,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436893/sri-harsha-agencies/storefront/category-dehydrated-produce.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436893/sri-harsha-agencies/storefront/category-dehydrated-produce.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-dehydrated-produce",
+    "version": 1793436893,
+    "format": "webp"
+  },
+  "/images/category-dry-fruits.webp": {
+    "originalFile": "category-dry-fruits.webp",
+    "originalSizeKb": 321,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436895/sri-harsha-agencies/storefront/category-dry-fruits.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436895/sri-harsha-agencies/storefront/category-dry-fruits.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-dry-fruits",
+    "version": 1793436895,
+    "format": "webp"
+  },
+  "/images/category-honey-items.webp": {
+    "originalFile": "category-honey-items.webp",
+    "originalSizeKb": 223,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436896/sri-harsha-agencies/storefront/category-honey-items.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436896/sri-harsha-agencies/storefront/category-honey-items.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-honey-items",
+    "version": 1793436896,
+    "format": "webp"
+  },
+  "/images/category-laddus-snacks.webp": {
+    "originalFile": "category-laddus-snacks.webp",
+    "originalSizeKb": 215,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436897/sri-harsha-agencies/storefront/category-laddus-snacks.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436897/sri-harsha-agencies/storefront/category-laddus-snacks.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-laddus-snacks",
+    "version": 1793436897,
+    "format": "webp"
+  },
+  "/images/category-nuts.webp": {
+    "originalFile": "category-nuts.webp",
+    "originalSizeKb": 266,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436900/sri-harsha-agencies/storefront/category-nuts.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436900/sri-harsha-agencies/storefront/category-nuts.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-nuts",
+    "version": 1793436900,
+    "format": "webp"
+  },
+  "/images/category-seeds.webp": {
+    "originalFile": "category-seeds.webp",
+    "originalSizeKb": 247,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436901/sri-harsha-agencies/storefront/category-seeds.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436901/sri-harsha-agencies/storefront/category-seeds.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-seeds",
+    "version": 1793436901,
+    "format": "webp"
+  },
+  "/images/category-spices.webp": {
+    "originalFile": "category-spices.webp",
+    "originalSizeKb": 264,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436810/sri-harsha-agencies/storefront/category-spices.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436810/sri-harsha-agencies/storefront/category-spices.webp",
+    "publicId": "sri-harsha-agencies/storefront/category-spices",
+    "version": 1793436810,
+    "format": "webp"
+  },
+  "/images/combos-banner.png": {
+    "originalFile": "combos-banner.png",
+    "originalSizeKb": 2982,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436910/sri-harsha-agencies/storefront/combos-banner.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436910/sri-harsha-agencies/storefront/combos-banner.png",
+    "publicId": "sri-harsha-agencies/storefront/combos-banner",
+    "version": 1793436910,
+    "format": "png"
+  },
+  "/images/combos-page-banner.png": {
+    "originalFile": "combos-page-banner.png",
+    "originalSizeKb": 2662,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436924/sri-harsha-agencies/storefront/combos-page-banner.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436924/sri-harsha-agencies/storefront/combos-page-banner.png",
+    "publicId": "sri-harsha-agencies/storefront/combos-page-banner",
+    "version": 1793436924,
+    "format": "png"
+  },
+  "/images/hero-ingredients-01.png": {
+    "originalFile": "hero-ingredients-01.png",
+    "originalSizeKb": 2445,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436928/sri-harsha-agencies/storefront/hero-ingredients-01.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436928/sri-harsha-agencies/storefront/hero-ingredients-01.png",
+    "publicId": "sri-harsha-agencies/storefront/hero-ingredients-01",
+    "version": 1793436928,
+    "format": "png"
+  },
+  "/images/hero-ingredients-02.png": {
+    "originalFile": "hero-ingredients-02.png",
+    "originalSizeKb": 2171,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436932/sri-harsha-agencies/storefront/hero-ingredients-02.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436932/sri-harsha-agencies/storefront/hero-ingredients-02.png",
+    "publicId": "sri-harsha-agencies/storefront/hero-ingredients-02",
+    "version": 1793436932,
+    "format": "png"
+  },
+  "/images/hero-ingredients-03.png": {
+    "originalFile": "hero-ingredients-03.png",
+    "originalSizeKb": 2600,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436938/sri-harsha-agencies/storefront/hero-ingredients-03.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436938/sri-harsha-agencies/storefront/hero-ingredients-03.png",
+    "publicId": "sri-harsha-agencies/storefront/hero-ingredients-03",
+    "version": 1793436938,
+    "format": "png"
+  },
+  "/images/home-combos-feature-new.webp": {
+    "originalFile": "home-combos-feature-new.webp",
+    "originalSizeKb": 505,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436939/sri-harsha-agencies/storefront/home-combos-feature-new.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436939/sri-harsha-agencies/storefront/home-combos-feature-new.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-combos-feature-new",
+    "version": 1793436939,
+    "format": "webp"
+  },
+  "/images/home-combos-feature.webp": {
+    "originalFile": "home-combos-feature.webp",
+    "originalSizeKb": 505,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436943/sri-harsha-agencies/storefront/home-combos-feature.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436943/sri-harsha-agencies/storefront/home-combos-feature.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-combos-feature",
+    "version": 1793436943,
+    "format": "webp"
+  },
+  "/images/home-hero-01.webp": {
+    "originalFile": "home-hero-01.webp",
+    "originalSizeKb": 319,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436944/sri-harsha-agencies/storefront/home-hero-01.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436944/sri-harsha-agencies/storefront/home-hero-01.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-01",
+    "version": 1793436944,
+    "format": "webp"
+  },
+  "/images/home-hero-02.webp": {
+    "originalFile": "home-hero-02.webp",
+    "originalSizeKb": 408,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436945/sri-harsha-agencies/storefront/home-hero-02.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436945/sri-harsha-agencies/storefront/home-hero-02.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-02",
+    "version": 1793436945,
+    "format": "webp"
+  },
+  "/images/home-hero-03.webp": {
+    "originalFile": "home-hero-03.webp",
+    "originalSizeKb": 411,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436946/sri-harsha-agencies/storefront/home-hero-03.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436946/sri-harsha-agencies/storefront/home-hero-03.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-03",
+    "version": 1793436946,
+    "format": "webp"
+  },
+  "/images/home-hero-04.webp": {
+    "originalFile": "home-hero-04.webp",
+    "originalSizeKb": 325,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436947/sri-harsha-agencies/storefront/home-hero-04.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436947/sri-harsha-agencies/storefront/home-hero-04.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-04",
+    "version": 1793436947,
+    "format": "webp"
+  },
+  "/images/home-hero-desktop-01.webp": {
+    "originalFile": "home-hero-desktop-01.webp",
+    "originalSizeKb": 319,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436948/sri-harsha-agencies/storefront/home-hero-desktop-01.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436948/sri-harsha-agencies/storefront/home-hero-desktop-01.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-desktop-01",
+    "version": 1793436948,
+    "format": "webp"
+  },
+  "/images/home-hero-desktop-02.webp": {
+    "originalFile": "home-hero-desktop-02.webp",
+    "originalSizeKb": 408,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436949/sri-harsha-agencies/storefront/home-hero-desktop-02.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436949/sri-harsha-agencies/storefront/home-hero-desktop-02.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-desktop-02",
+    "version": 1793436949,
+    "format": "webp"
+  },
+  "/images/home-hero-desktop-03.webp": {
+    "originalFile": "home-hero-desktop-03.webp",
+    "originalSizeKb": 411,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436951/sri-harsha-agencies/storefront/home-hero-desktop-03.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436951/sri-harsha-agencies/storefront/home-hero-desktop-03.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-desktop-03",
+    "version": 1793436951,
+    "format": "webp"
+  },
+  "/images/home-hero-desktop-04.webp": {
+    "originalFile": "home-hero-desktop-04.webp",
+    "originalSizeKb": 325,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436952/sri-harsha-agencies/storefront/home-hero-desktop-04.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436952/sri-harsha-agencies/storefront/home-hero-desktop-04.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-desktop-04",
+    "version": 1793436952,
+    "format": "webp"
+  },
+  "/images/home-hero-mobile-01.webp": {
+    "originalFile": "home-hero-mobile-01.webp",
+    "originalSizeKb": 337,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436953/sri-harsha-agencies/storefront/home-hero-mobile-01.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436953/sri-harsha-agencies/storefront/home-hero-mobile-01.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-mobile-01",
+    "version": 1793436953,
+    "format": "webp"
+  },
+  "/images/home-hero-mobile-02.webp": {
+    "originalFile": "home-hero-mobile-02.webp",
+    "originalSizeKb": 372,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436955/sri-harsha-agencies/storefront/home-hero-mobile-02.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436955/sri-harsha-agencies/storefront/home-hero-mobile-02.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-mobile-02",
+    "version": 1793436955,
+    "format": "webp"
+  },
+  "/images/home-hero-mobile-03.webp": {
+    "originalFile": "home-hero-mobile-03.webp",
+    "originalSizeKb": 411,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436956/sri-harsha-agencies/storefront/home-hero-mobile-03.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436956/sri-harsha-agencies/storefront/home-hero-mobile-03.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-mobile-03",
+    "version": 1793436956,
+    "format": "webp"
+  },
+  "/images/home-hero-mobile-04.webp": {
+    "originalFile": "home-hero-mobile-04.webp",
+    "originalSizeKb": 307,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436960/sri-harsha-agencies/storefront/home-hero-mobile-04.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436960/sri-harsha-agencies/storefront/home-hero-mobile-04.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-mobile-04",
+    "version": 1793436960,
+    "format": "webp"
+  },
+  "/images/home-hero-spices.webp": {
+    "originalFile": "home-hero-spices.webp",
+    "originalSizeKb": 190,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436961/sri-harsha-agencies/storefront/home-hero-spices.webp",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436961/sri-harsha-agencies/storefront/home-hero-spices.webp",
+    "publicId": "sri-harsha-agencies/storefront/home-hero-spices",
+    "version": 1793436961,
+    "format": "webp"
+  },
+  "/images/product-almonds.png": {
+    "originalFile": "product-almonds.png",
+    "originalSizeKb": 2275,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436963/sri-harsha-agencies/storefront/product-almonds.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436963/sri-harsha-agencies/storefront/product-almonds.png",
+    "publicId": "sri-harsha-agencies/storefront/product-almonds",
+    "version": 1793436963,
+    "format": "png"
+  },
+  "/images/product-cashews.png": {
+    "originalFile": "product-cashews.png",
+    "originalSizeKb": 2081,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436965/sri-harsha-agencies/storefront/product-cashews.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436965/sri-harsha-agencies/storefront/product-cashews.png",
+    "publicId": "sri-harsha-agencies/storefront/product-cashews",
+    "version": 1793436965,
+    "format": "png"
+  },
+  "/images/product-dates.png": {
+    "originalFile": "product-dates.png",
+    "originalSizeKb": 2409,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436967/sri-harsha-agencies/storefront/product-dates.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436967/sri-harsha-agencies/storefront/product-dates.png",
+    "publicId": "sri-harsha-agencies/storefront/product-dates",
+    "version": 1793436967,
+    "format": "png"
+  },
+  "/images/product-laddus.png": {
+    "originalFile": "product-laddus.png",
+    "originalSizeKb": 1908,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436969/sri-harsha-agencies/storefront/product-laddus.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436969/sri-harsha-agencies/storefront/product-laddus.png",
+    "publicId": "sri-harsha-agencies/storefront/product-laddus",
+    "version": 1793436969,
+    "format": "png"
+  },
+  "/images/product-pistachios.png": {
+    "originalFile": "product-pistachios.png",
+    "originalSizeKb": 2217,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436971/sri-harsha-agencies/storefront/product-pistachios.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto/v1793436971/sri-harsha-agencies/storefront/product-pistachios.png",
+    "publicId": "sri-harsha-agencies/storefront/product-pistachios",
+    "version": 1793436971,
+    "format": "png"
+  },
+  "/images/products-page-banner.png": {
+    "originalFile": "products-page-banner.png",
+    "originalSizeKb": 2748,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436974/sri-harsha-agencies/storefront/products-page-banner.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_1920,c_limit/v1793436974/sri-harsha-agencies/storefront/products-page-banner.png",
+    "publicId": "sri-harsha-agencies/storefront/products-page-banner",
+    "version": 1793436974,
+    "format": "png"
+  },
+  "/images/sri-harsha-logo.png": {
+    "originalFile": "sri-harsha-logo.png",
+    "originalSizeKb": 2087,
+    "secureUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/v1793436841/sri-harsha-agencies/storefront/sri-harsha-logo.png",
+    "optimizedUrl": "https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_300,c_limit/v1793436841/sri-harsha-agencies/storefront/sri-harsha-logo.png",
+    "publicId": "sri-harsha-agencies/storefront/sri-harsha-logo",
+    "version": 1793436841,
+    "format": "png"
+  }
+}

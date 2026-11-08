@@ -13,7 +13,7 @@ const links = [
   { href: '/products', label: 'Products' },
   { href: '/combos', label: 'Combos' },
   { href: '/bulk-orders', label: 'Bulk orders' },
-  { href: '/about', label: 'Our story' },
+  { href: '/about', label: 'About us' },
   { href: '/contact', label: 'Contact' },
 ];
 

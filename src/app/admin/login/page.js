@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import { siteConfig } from '@/config/site';
 
 export default function AdminLoginPage() {
   const router = useRouter();
@@ -42,7 +43,7 @@ export default function AdminLoginPage() {
       <div className="admin-login-card">
         <div className="admin-login-header">
           <div className="admin-login-logo">
-            <Image src="/images/sri-harsha-logo.png" alt="Sri Harsha Agencies" width={72} height={72} priority />
+            <Image src={siteConfig.logo} alt="Sri Harsha Agencies" width={72} height={72} priority />
           </div>
           <h1>Store Admin</h1>
           <p>Please sign in to manage the store.</p>

@@ -35,8 +35,13 @@ export async function POST(request) {
       ],
     });
 
+    // Ensure returned URL always includes on-the-fly edge optimization (AVIF/WebP, auto quality, max 800px width)
+    const optimizedUrl = result.secure_url && result.secure_url.includes('/upload/')
+      ? result.secure_url.replace('/upload/', '/upload/f_auto,q_auto,w_800,c_limit/')
+      : result.secure_url;
+
     return NextResponse.json({
-      url: result.secure_url,
+      url: optimizedUrl,
       publicId: result.public_id,
       width: result.width,
       height: result.height,

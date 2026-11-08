@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Sri Harsha Agencies',
   shortName: 'Sri Harsha',
-  logo: '/images/sri-harsha-logo.png',
+  logo: 'https://res.cloudinary.com/m5zwu1v6/image/upload/f_auto,q_auto,w_300,c_limit/v1793436841/sri-harsha-agencies/storefront/sri-harsha-logo.png',
   announcement: 'Good things, naturally — handpicked for your family.',
   // Add the WhatsApp number with country code, digits only (example: 919876543210).
   whatsappNumber: '919391288377',

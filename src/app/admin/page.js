@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
+import { siteConfig } from '@/config/site';
 import { LayoutGrid, Package, Boxes, PackageOpen, X, RotateCw, PackageX, Pencil, Trash2 } from 'lucide-react';
 import { formatCurrency } from '@/lib/pricing';
 
@@ -17,6 +18,7 @@ export default function AdminDashboardPage() {
   const [typeFilter, setTypeFilter] = useState('all'); // 'all' | 'product' | 'combo'
   const [stockFilter, setStockFilter] = useState('all'); // 'all' | 'inStock' | 'outOfStock'
   const [message, setMessage] = useState(null);
+  const [deleteTarget, setDeleteTarget] = useState(null);
 
   useEffect(() => {
     checkAuthAndLoad();
@@ -96,10 +98,15 @@ export default function AdminDashboardPage() {
     }
   }
 
-  async function handleDelete(product) {
-    const confirmed = window.confirm(`Are you sure you want to delete "${product.name}"?`);
-    if (!confirmed) return;
+  function requestDelete(product) {
+    setDeleteTarget(product);
+  }
 
+  async function handleDelete() {
+    const product = deleteTarget;
+    if (!product) return;
+
+    setDeleteTarget(null);
     setActionLoadingId(product.id);
     try {
       const res = await fetch(`/api/products/${product.id}`, { method: 'DELETE' });
@@ -211,15 +218,15 @@ export default function AdminDashboardPage() {
       {/* Top Navigation Bar matching Image 2 */}
       <header className="admin-nav-bar">
         <div className="admin-nav-left">
-          <div className="admin-brand">
-            <Link href="/" className="admin-logo-circle" title="Go to storefront home" aria-label="Go to storefront home">
-              <Image src="/images/sri-harsha-logo.png" alt="Sri Harsha Agencies" width={38} height={38} priority />
-            </Link>
+          <Link href="/" className="admin-brand" title="Go to storefront home" aria-label="Go to storefront home">
+            <span className="admin-logo-circle" aria-hidden="true">
+              <Image src={siteConfig.logo} alt="Sri Harsha Agencies" width={38} height={38} priority />
+            </span>
             <div className="admin-brand-text">
               <h1 className="admin-brand-title">Sri Harsha Agencies</h1>
               <span className="admin-brand-subtitle">ADMIN PORTAL</span>
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className="admin-nav-right">
@@ -514,7 +521,7 @@ export default function AdminDashboardPage() {
 
                           {/* Delete Button */}
                           <button
-                            onClick={() => handleDelete(item)}
+                            onClick={() => requestDelete(item)}
                             className="admin-action-btn btn-delete"
                             title="Delete Product"
                             disabled={isOperating}
@@ -683,7 +690,7 @@ export default function AdminDashboardPage() {
 
                       {/* Delete Button */}
                       <button
-                        onClick={() => handleDelete(item)}
+                        onClick={() => requestDelete(item)}
                         className="admin-mob-action-btn btn-delete"
                         title="Delete Product"
                         disabled={isOperating}
@@ -699,6 +706,40 @@ export default function AdminDashboardPage() {
           )}
         </section>
       </main>
+
+      {deleteTarget && (
+        <div
+          className="admin-delete-modal-backdrop"
+          role="presentation"
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget) setDeleteTarget(null);
+          }}
+        >
+          <section
+            className="admin-delete-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="admin-delete-title"
+            aria-describedby="admin-delete-description"
+          >
+            <div className="admin-delete-modal-icon" aria-hidden="true">
+              <Trash2 size={27} strokeWidth={2.2} />
+            </div>
+            <h2 id="admin-delete-title">Delete Product?</h2>
+            <p id="admin-delete-description">
+              Are you sure you want to delete <strong>{deleteTarget.name}</strong>? This action cannot be undone and it will be permanently removed from your database.
+            </p>
+            <div className="admin-delete-modal-actions">
+              <button type="button" className="admin-delete-cancel" onClick={() => setDeleteTarget(null)}>
+                Cancel
+              </button>
+              <button type="button" className="admin-delete-confirm" onClick={handleDelete}>
+                Yes, Delete
+              </button>
+            </div>
+          </section>
+        </div>
+      )}
     </div>
   );
 }
