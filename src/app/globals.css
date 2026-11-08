@@ -3009,6 +3009,12 @@ img {
     overflow-x: clip;
   }
 
+  body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
   .site-header {
     --mobile-header-height: 68px;
     position: sticky;
