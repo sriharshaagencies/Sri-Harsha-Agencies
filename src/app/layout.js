@@ -13,6 +13,9 @@ export const metadata = {
   icons: { icon: '/images/sri-harsha-logo.png' },
   creator: siteConfig.name,
   publisher: siteConfig.name,
+  verification: {
+    google: '2eCy-wkxK2TxzhRX6L77dB6-vHPHwAI0f53U9Yx0tqM',
+  },
 };
 
 export default function RootLayout({ children }) {
