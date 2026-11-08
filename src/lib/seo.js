@@ -1,6 +1,6 @@
 import { siteConfig } from '@/config/site';
 
-export const siteUrl = 'https://sriharshaagencies.in';
+export const siteUrl = 'https://www.sriharshaagencies.in';
 export const siteImage = `${siteUrl}/images/sri-harsha-shop.png`;
 
 export function absoluteUrl(path = '/') {
