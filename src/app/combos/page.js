@@ -1,8 +1,13 @@
 import Link from 'next/link';
 import { ArrowRight, Gift, Sparkles } from 'lucide-react';
 import ComboProducts from '@/components/products/ComboProducts';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata = { title: 'Curated combos' };
+export const metadata = createPageMetadata({
+  title: 'Dry Fruit Combos & Gift Boxes',
+  description: 'Discover thoughtfully curated dry fruit combos and gift-ready selections from Sri Harsha Agencies in Tuni, Andhra Pradesh.',
+  path: '/combos',
+});
 
 export default function CombosPage() {
   return (

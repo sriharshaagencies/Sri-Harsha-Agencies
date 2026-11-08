@@ -1,8 +1,13 @@
 import { BadgePercent, Boxes, Building2, Gift, Store } from 'lucide-react';
 import BulkEnquiryForm from '@/components/forms/BulkEnquiryForm';
 import { siteConfig } from '@/config/site';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata = { title: 'Corporate & bulk orders' };
+export const metadata = createPageMetadata({
+  title: 'Bulk Dry Fruits & Corporate Gifting in Tuni',
+  description: 'Discuss bulk dry fruits, wholesale supply, corporate gifting and custom hampers with Sri Harsha Agencies in Tuni, Andhra Pradesh.',
+  path: '/bulk-orders',
+});
 
 const services = [
   { title: 'Corporate Gifting', description: 'Thoughtful luxury hampers & gourmet gift boxes for esteemed teams and clients', icon: Gift },

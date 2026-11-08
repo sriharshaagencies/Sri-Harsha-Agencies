@@ -10,6 +10,14 @@ import { homeCategories } from '@/data/categories';
 import { testimonials } from '@/data/testimonials';
 import { heroImages, productImages } from '@/data/images';
 import { siteConfig } from '@/config/site';
+import { createPageMetadata } from '@/lib/seo';
+
+export const metadata = createPageMetadata({
+  title: 'Sri Harsha Agencies | Premium Dry Fruits & Nuts in Tuni',
+  description: 'Explore premium dry fruits, almonds, cashews, pistachios, dates, nuts and thoughtfully curated combos at Sri Harsha Agencies in Tuni. Enquire about bulk orders and gifting.',
+  path: '/',
+  absoluteTitle: true,
+});
 
 export default function HomePage() {
   return (

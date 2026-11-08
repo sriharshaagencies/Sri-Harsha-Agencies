@@ -2,8 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Boxes, Leaf, PackageCheck } from 'lucide-react';
 import { siteConfig } from '@/config/site';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata = { title: 'About us' };
+export const metadata = createPageMetadata({
+  title: 'About Sri Harsha Agencies in Tuni',
+  description: 'Learn about Sri Harsha Agencies, a Tuni, Andhra Pradesh store offering dry fruits, nuts, seeds, snacks, combos and gifting selections.',
+  path: '/about',
+});
 
 export default function AboutPage() {
   return (

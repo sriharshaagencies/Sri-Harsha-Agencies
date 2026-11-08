@@ -1,8 +1,13 @@
 import { ArrowUpRight, Clock3, Instagram, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { siteConfig } from '@/config/site';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata = { title: 'Contact' };
+export const metadata = createPageMetadata({
+  title: 'Contact Sri Harsha Agencies in Tuni',
+  description: 'Contact Sri Harsha Agencies in Tuni, Andhra Pradesh for dry fruits, nuts, combos, gifting and bulk order enquiries.',
+  path: '/contact',
+});
 
 export default function ContactPage() {
   const instagram = siteConfig.socials[0];

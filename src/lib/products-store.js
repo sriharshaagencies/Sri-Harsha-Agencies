@@ -54,6 +54,7 @@ export async function getProductById(id) {
     if (snap.exists()) {
       return { ...snap.data(), id: snap.id };
     }
+    return localProducts.find((product) => product.id === id) || null;
   } catch (err) {
     console.warn('Firestore unavailable; using local product data:', err?.message);
   }

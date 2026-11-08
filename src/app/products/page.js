@@ -1,8 +1,13 @@
 import ProductCatalogue from '@/components/products/ProductCatalogue';
 import { getAllProducts } from '@/lib/products-store';
 import { siteConfig } from '@/config/site';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata = { title: 'Products' };
+export const metadata = createPageMetadata({
+  title: 'Premium Dry Fruits & Nuts Collection',
+  description: 'Browse almonds, cashews, pistachios, dates, laddus and other pantry favourites available from Sri Harsha Agencies in Tuni, Andhra Pradesh.',
+  path: '/products',
+});
 export const dynamic = 'force-dynamic';
 
 export default async function ProductsPage({ searchParams }) {
