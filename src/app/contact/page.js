@@ -34,7 +34,7 @@ export default function ContactPage() {
             </div>
             <div className="contact-card__note">
               <span><Clock3 size={19} /></span>
-              <div><strong>Store hours</strong><p>Message us on WhatsApp to confirm today’s opening hours before your visit.</p></div>
+              <div><strong>Store hours</strong><p>Open daily from 8:00 AM to 10:00 PM.</p></div>
             </div>
             <div className="contact-card__actions">
               <a className="button button--light" href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle size={17} /> WhatsApp us <ArrowUpRight size={15} /></a>
@@ -46,6 +46,17 @@ export default function ContactPage() {
             <ContactForm />
           </div>
         </div>
+        {siteConfig.mapEmbedUrl && (
+          <div className="container contact-page__map">
+            <iframe
+              title={`Map showing ${siteConfig.name}`}
+              src={siteConfig.mapEmbedUrl}
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        )}
       </section>
     </main>
   );

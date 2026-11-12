@@ -8,8 +8,8 @@ export const siteConfig = {
   phone: '+91 93912 88377',
   email: '',
   address: 'Tuni, Andhra Pradesh',
-  locationUrl: 'https://maps.google.com/?q=17.365425883518032,82.54098227516448',
-  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3807.964817556421!2d82.54098227516448!3d17.365425883518032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDIxJzU1LjUiTiA4MsKwMzInMzYuOCJF!5e0!3m2!1sen!2sin!4v1793340173701!5m2!1sen!2sin',
+  locationUrl: 'https://www.google.com/maps/search/?api=1&query=Sri%20Harsha%20Agencies%20Tuni',
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.965652719427!2d82.5408514793457!3d17.365385700000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39c7495bd91c19%3A0x6f60d91ad288ebde!2sSri%20Harsha%20Agencies%20Tuni!5e0!3m2!1sen!2sin!4v1794466598821!5m2!1sen!2sin',
   website: '',
   socials: [
     { label: 'Instagram', href: 'https://www.instagram.com/sri_harsha_agencies_tuni_/', icon: 'instagram' },
